@@ -28,14 +28,15 @@ html, body {
   font-size: 18px;
   background: #000d19;
   display: flex;
+  -webkit-font-smoothing: antialiased;
 }
 
 .background {
   background: #B4B4BF;
   max-width: 1180px;
-  height: 100vh;
-  margin: 1rem;
-  align-content: space-around;
+  height: 90vh;
+  margin: 30px 20px;
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
@@ -100,6 +101,13 @@ html, body {
 .icons {
   width:50px;
   height:50px;
+  fill: #fcfcfc;
+}
+
+.icons:hover {
+  fill: #571985;
+  transition: ease;
+  transition-duration: 0.3s;
 }
 
 @media (min-width:750px) {
@@ -144,21 +152,30 @@ html, body {
   .social-icons-link {
     text-decoration: none;
     display: flex;
-    background: #B4B4BF;
+    /*background: rgba(53, 57, 71, 0.5);*/
+    background: rgba(87, 25, 133, 0.8);
     width: 60%;
     border-radius: 10px;
-    border: 1px solid #353947;
+    border: 1px solid rgba(53, 57, 71, 0.5);
     padding: 5px;
     margin-bottom: 10px;
-    color: #571985;
+    color: #fcfcfc;
   }
 
-  .social-icons-link:hover {
-    background-color: rgba(53, 57, 71, 0.5);
-    border: 1px solid #353947;
-    color: #fcfcfc;
+  .social-hover:hover {
+    background-color: #B4B4BF;
+    border: 1px solid rgba(53, 57, 71, 0.5);
+    color: #571985;
     transition: ease;
     transition-duration: 0.3s;
+  }
+
+  .icons {
+    fill: #fcfcfc;
+  }
+
+  .icons:hover {
+    fill: #571985;
   }
 
   .social-icons-text {
