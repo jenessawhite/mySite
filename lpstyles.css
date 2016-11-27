@@ -68,7 +68,7 @@ html, body {
 
 .content-headshot {
   max-width: 250px;
-  border-radius: 100px;
+  border-radius: 100%;
 }
 
 .content-name {
@@ -119,17 +119,17 @@ html, body {
   .content-left {
     border-right: 1px solid #353947;
     height: 90vh;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: 1rem;
     margin-right: 1rem;
     }
 
-    .content-name {
-      font-family: 'Bilius';
-      color: #571985;
-      font-size: 3em;
-      margin: 30px 0;
-    }
+  .content-name {
+    font-family: 'Bilius';
+    color: #571985;
+    font-size: 3em;
+    margin: 2rem;
+  }
 
   .content-right {
     height: 90vh;
