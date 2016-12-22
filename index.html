@@ -1,91 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Jenessa White | Front End Devloper">
+    <meta name="author" content="Jenessa White">
+    <title>Jenessa White | Front End Devloper by day...</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./src/normalize.css" media="screen" title="no title">
+    <!-- Ionicons CSS -->
+    <link rel="stylesheet" href="./src/ionicons.min.css" media="screen" title="no title">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/src/index.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="assets/logocopy2.png" type="image/png">
-  <link rel="stylesheet" href="normalize.css" media="screen" title="no title">
-  <link rel="stylesheet" href="Kano_Regular/stylesheet.css" media="screen" title="no title">
-  <link rel="stylesheet" href="fonts/billius/stylesheet.css" media="screen" title="no title">
-  <link rel="stylesheet" href="lpstyles.css" media="screen" title="no title">
-  <title>Jenessa White | Web Developer, Football and Basketball Enthusiast</title>
-  <meta name="keywords" content="jenessa diamond white" />
-  <meta name="description" content="Jenessa White is a front end developer in Minneapolis, Minnesota">
-  <meta itemprop="description" content="Jenessa White is a front end developer in Minneapolis, Minnesota" />
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Jenessa White | Web Developer, Football and Basketball Enthusiast">
-  <meta property="og:url" content="http://jenessawhite.com">
-  <meta property="og:description" content="Jenessa White is a front end developer in Minneapolis, Minnesota">
-  <meta property="og:image" content="assets/jenessaWhiteCopy.png" />
-  <meta property="og:image:url" content="assets/jenessaWhiteCopy.png" />
-  <meta name="twitter:card" content="summary">
-  <meta property="twitter:title" content="Jenessa White | Web Developer, Football and Basketball Enthusiast">
-  <meta property="twitter:description" content="Jenessa White is a front end developer in Minneapolis, Minnesota">
-  <meta name="twitter:url" content="http://jenessawhite.com" />
-  <meta name="twitter:image" content="assets/jenessaWhiteCopy.png">
-  <meta name="twitter:image:src" content="assets/jenessaWhiteCopy.png">
-</head>
-
-<body>
-
-  <!-- CONTENT -->
-  <div class="background">
-    <div class="content">
-
-      <div class="content-left">
-        <img src="assets/jenessaWhiteCopy.png" alt="Jenessa White headshot" class="content-headshot">
-        <h1 class="content-name">Jenessa White</h1>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-light navbar-fixed-top">
+      <button class="navbar-toggler hidden-md-up navbar-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+      <div class="collapse navbar-toggleable-sm" id="navbarResponsive">
+        <a class="navbar-brand" href="#">Jenessa White</a>
+        <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mywork">My Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        </ul>
       </div>
-
-      <div class="content-right">
-        <p class="content-text">
-          Thanks for visting!
-          <br>My site is currently under a redesign. I loved that you stopped by, but I can’t let you in quite yet. I know, I know, I don’t like it either, but I won’t leave you completely hanging.
-          <br>Check me out other places on the web!
-          <br>You can send me an
-          <a href="mailto:jenessaw31@gmail.com" class="content-email">email</a> as well!
-        </p>
-
-        <div class="social-icons">
-          <a href="https://github.com/JenessaWhite" class="social-icons-link social-hover" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" width="35" height="35" viewBox="0 0 35.3 35.3" alt="Github Logo" class="icons github"><path d="M23.7 34.7c-0.2 0.1-0.3 0.1-0.5 0.2 -0.7 0.1-1.1-0.2-1.1-0.9 0-1.3 0-2.6 0-3.9 0-1.5 0-2.9-1.1-4.2 0.7-0.1 1.3-0.2 1.8-0.3 3.9-0.9 5.9-3.3 6.1-7.4 0.1-2.1-0.2-3.9-1.6-5.6 -0.1-0.1-0.1-0.4-0.1-0.5 0.4-1.3 0.3-2.6-0.2-4 -0.1-0.3-0.3-0.4-0.6-0.4 -1.1 0.1-2.2 0.5-3.1 1.1 -0.9 0.6-1.7 0.7-2.8 0.5 -2.3-0.5-4.6-0.4-6.9 0.2 -0.3 0.1-0.6 0-0.9-0.2 -1.1-0.6-2.2-1.2-3.4-1.5 -1-0.2-1-0.1-1.3 0.8C7.8 9.8 7.8 10.9 8.1 12.1c0 0.2 0 0.4-0.1 0.6 -2.6 2.9-1.6 8.2 0.1 10.3 1.3 1.6 3.1 2.3 5.1 2.7 0.3 0.1 0.7 0.1 1 0.2 -0.3 0.8-0.6 1.5-0.9 2.2 -0.1 0.1-0.2 0.3-0.4 0.3 -1.9 0.8-3.6 0.2-4.7-1.6 -0.6-0.9-1.4-1.6-2.5-1.8 0 0-0.1 0-0.1 0 -0.3 0.1-0.6 0.2-0.9 0.2 0.2 0.2 0.3 0.6 0.5 0.7 1 0.6 1.6 1.5 2 2.5 0.6 1.6 1.9 2.3 3.5 2.5 0.8 0.1 1.6 0 2.5 0 0 1 0 2.1 0 3.3 0 0.6-0.6 0.9-1.4 0.6 -1.9-0.7-3.8-1.6-5.3-3C1 27-1.2 20.8 0.7 13.7 2.5 6.5 7.4 2.1 14.7 0.7 24.7-1.2 34.2 6.2 35.2 16.4 36 24.4 31.3 31.9 23.7 34.7zM14.2 25.9c0 0 0 0 0 0 0 0 0 0 0.1 0C14.3 25.9 14.3 25.9 14.2 25.9zM9.7 29c0.2 0.1 0.3 0.2 0.5 0.3 0.1 0 0.2-0.1 0.4-0.3 -0.3-0.1-0.4-0.2-0.6-0.2C9.8 28.8 9.8 29 9.7 29zM11.1 29.3c0 0.1 0.2 0.2 0.4 0.2 0.1 0 0.2-0.2 0.4-0.2 -0.1-0.1-0.2-0.2-0.5-0.5C11.2 29 11.1 29.1 11.1 29.3zM12.9 28.9c-0.1 0-0.3 0.2-0.4 0.3 0.1 0.1 0.2 0.2 0.3 0.4 0.2-0.2 0.3-0.3 0.4-0.4C13.1 29 12.9 28.8 12.9 28.9zM8.5 28.3c0.1 0.2 0.2 0.3 0.4 0.5 0.1-0.2 0.2-0.3 0.2-0.4 -0.1-0.1-0.3-0.3-0.4-0.4C8.7 28 8.5 28.2 8.5 28.3z"/></svg>
-            <span class="social-icons-text">Github</span>
+    </nav>
+    <!-- CONTENT -->
+    <div class="container-fluid main">
+      <div class="heading" id="">
+        <img src="assets/JenessaWhiteCopy.jpg" alt="Jenessa White headshot" class="img-fluid rounded-circle headshot">
+        <div class="social-group" role="group" aria-label="Basic example">
+          <a href="https://github.com/jenessawhite" class="heading-social-links" target="_blank">
+            <i class="icon ion-social-github-outline heading-social-button"></i>
           </a>
-          <a href="http://linkedin.com/in/jenessawhite" class="social-icons-link social-hover" target="_blank">
-            <!-- <img src="assets/linkedin-logo-circle.png" alt="LinkedIn Logo" class="icons linkedin"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 49.7 49.7" alt="LinkedIn Logo" class="icons linkedin"><path d="M29.4 21.3c-2.1 0-3.1 1.2-3.6 2v-1.7h-4c0.1 1.1 0 12 0 12h4v-6.7c0-0.4 0-0.7 0.1-1 0.3-0.7 0.9-1.5 2.1-1.5 1.4 0 2 1.1 2 2.7v6.4h4 0v-6.9C34 23 32 21.3 29.4 21.3zM25.7 23.3h0c0 0 0 0 0 0V23.3z"/><rect x="15.5" y="21.6" width="4" height="12"/><path d="M24.8 0C11.1 0 0 11.1 0 24.8c0 13.7 11.1 24.8 24.8 24.8 13.7 0 24.8-11.1 24.8-24.8C49.7 11.1 38.5 0 24.8 0zM38 36.1c0 1.1-0.9 1.9-2 1.9H13.5c-1.1 0-2-0.9-2-1.9V13.2c0-1.1 0.9-1.9 2-1.9h22.6c1.1 0 2 0.9 2 1.9V36.1z"/><path d="M17.6 15.8c-1.4 0-2.3 0.9-2.3 2.1 0 1.2 0.9 2.1 2.2 2.1h0c1.4 0 2.3-0.9 2.3-2.1C19.8 16.7 18.9 15.8 17.6 15.8z"/></svg>
-            <span class="social-icons-text">LinkedIn</span>
+          <a href="https://linkedin.com/in/jenessawhite" class="heading-social-links" target="_blank">
+            <i class="icon ion-social-linkedin-outline  heading-social-button"></i>
           </a>
-          <a href="https://twitter.com/JNessView" class="social-icons-link social-hover" target="_blank">
-            <!-- <img src="assets/twitter-logo-circle.png" alt="Twitter Logo" class="icons twitter"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 49.7 49.7" alt="Twitter Logo" class="icons twitter"><path d="M24.8 0C11.1 0 0 11.1 0 24.8c0 13.7 11.1 24.8 24.8 24.8 13.7 0 24.8-11.1 24.8-24.8C49.7 11.1 38.5 0 24.8 0zM35.9 19.1c0 0.2 0 0.5 0 0.7 0 7.6-5.7 16.3-16.3 16.3 -3.2 0-6.2-0.9-8.8-2.6 0.4 0.1 0.9 0.1 1.4 0.1 2.7 0 5.1-0.9 7.1-2.4 -2.5 0-4.6-1.7-5.3-4 0.3 0.1 0.7 0.1 1.1 0.1 0.5 0 1-0.1 1.5-0.2 -2.6-0.5-4.6-2.8-4.6-5.6 0 0 0 0 0-0.1 0.8 0.4 1.7 0.7 2.6 0.7 -1.5-1-2.5-2.8-2.5-4.8 0-1 0.3-2 0.8-2.9 2.8 3.5 7 5.7 11.8 6 -0.1-0.4-0.1-0.9-0.1-1.3 0-3.2 2.6-5.7 5.7-5.7 1.6 0 3.1 0.7 4.2 1.8 1.3-0.3 2.5-0.7 3.6-1.4 -0.4 1.3-1.3 2.5-2.5 3.2 1.2-0.1 2.3-0.4 3.3-0.9C38 17.3 37 18.3 35.9 19.1z"/></svg>
-            <span class="social-icons-text">Twitter</span>
+          <a href="https://twitter.com/jnessview" class="heading-social-links" target="_blank">
+            <i class="icon ion-social-twitter-outline  heading-social-button"></i>
           </a>
-          <a href="https://www.instagram.com/thenessview/" class="social-icons-link social-hover" target="_blank">
-            <!-- <img src="assets/instagram-logo-circle.png" alt="Instagram Logo" class="icons instagram"> -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 49.7 49.7" alt="Instagram Logo" class="icons instagram"><path d="M24.8 29.8c2.7 0 5-2.2 5-5 0-1.1-0.4-2.1-0.9-2.9 -0.9-1.3-2.4-2.1-4-2.1 -1.7 0-3.1 0.8-4 2.1 -0.6 0.8-0.9 1.8-0.9 2.9C19.9 27.6 22.1 29.8 24.8 29.8z"/><polygon points="35.7 18.7 35.7 14.6 35.7 14 35.1 14 30.9 14 30.9 18.8 "/><path d="M24.8 0C11.1 0 0 11.1 0 24.8c0 13.7 11.1 24.8 24.8 24.8 13.7 0 24.8-11.1 24.8-24.8C49.7 11.1 38.5 0 24.8 0zM38.9 21.9v11.6c0 3-2.4 5.5-5.5 5.5H16.2c-3 0-5.5-2.4-5.5-5.5v-11.6 -5.8c0-3 2.4-5.5 5.5-5.5h17.3c3 0 5.5 2.4 5.5 5.5V21.9z"/><path d="M32.5 24.8c0 4.3-3.5 7.7-7.7 7.7 -4.3 0-7.7-3.5-7.7-7.7 0-1 0.2-2 0.6-2.9h-4.2v11.6c0 1.5 1.2 2.7 2.7 2.7h17.3c1.5 0 2.7-1.2 2.7-2.7v-11.6h-4.2C32.3 22.8 32.5 23.8 32.5 24.8z"/></svg>
-            <span class="social-icons-text">Instagram</span>
+          <a href="https://instagram.com/thenessview" class="heading-social-links" target="_blank">
+            <i class="icon ion-social-instagram-outline  heading-social-button"></i>
           </a>
         </div>
+      </div>
+      <div class="intro-box">
+        <h1 class="title intro-title">Hey…</h1>
+        <p class="text intro-text">
+          My name is Jenessa. What do I do? I am a front end developer who designs and develops awesome websites and applications with great UI/UX. My biggest goal is to help the web and mobile applications we use hurt less to use them.
+        </p>
+      </div>
+      <div class="about-box" id="about">
+        <h2 class="title about-title">Who am I?</h2>
+        <p class="text about-text">
+          I am a tv loving, sports addicted, music junkie, who’s passion lies in UX. When I’m not coding and thinking about coding, you can find me watching ESPN, cooking things I see on Pinterest, working as a personal trainer and listening to music and some great podcasts (ask me about them!)
+        </p>
+        <div class="about-facts-box container">
+          <h4 class="about-facts-title title">fun facts:</h4>
+          <ul class="text about-facts-text">
+            <li>I make bowties for fun.</li>
+            <li>I’m in love with fonts.</li>
+            <li>I am a certified personal trainer.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mywork-box container-fluid" id="mywork">
+        <h2 class="title mywork-title">My Work</h2>
+        <div class="container-fluid">
+          <div class="row hover-row">
+            <div class="hovereffect col-sm-4 col-md-6">
+              <img class="img-fluid" src="./assets/shareIt.png" alt="">
+                <div class="overlay">
+                  <h2>Share-it | The easiest way to share music</h2>
+                  <p>
+                    <a href="https://github.com/Share-It/shareit" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-social-github-outline"></i>
+                    </a>
+                    <a href="https://share-it.github.io/shareit/" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-monitor"></i>
+                    </a>
+                  </p>
+                </div>
+            </div>
+            <div class="hovereffect col-sm-4 col-md-6">
+              <img class="img-fluid" src="./assets/revolutionz2.png" alt="">
+                <div class="overlay">
+                  <h2>Revolutionz | A crossover project e-commerce site</h2>
+                  <p>
+                    <a href="https://github.com/Revolutionz-TIY/CrossoverProject" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-social-github-outline"></i>
+                    </a>
+                    <a href="https://revolutionztiy.herokuapp.com" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-monitor"></i>
+                    </a>
+                  </p>
+                </div>
+            </div>
+          </div>
+          <div class="row hover-row">
+            <div class="hovereffect col-sm-6 col-md-6">
+              <img class="img-fluid" src="./assets/trackIt2.png" alt="">
+                <div class="overlay">
+                  <h2>Track-It | The Classic To-Do List</h2>
+                  <p>
+                    <a href="https://github.com/jenessawhite/track-it" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-social-github-outline"></i>
+                    </a>
+                    <a href="https://jenessawhite.github.io/track-it/" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-monitor"></i>
+                    </a>
+                  </p>
+                </div>
+            </div>
+            <div class="hovereffect col-sm-6 col-md-6">
+              <img class="img-fluid" src="./assets/novusTacos2.png" alt="">
+                <div class="overlay">
+                  <h2>Novus Tacos | Because, tacos</h2>
+                  <p>
+                    <a href="https://github.com/novustacos/novustacos" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-social-github-outline"></i>
+                    </a>
+                    <a href="https://novustacos.github.io/novustacos/" class="mywork-social-links" target="_blank">
+                      <i class="icon ion-monitor"></i>
+                    </a>
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <p class="mywork-text">
+          Check out more of my work on <span><a href="https://github.com/jenessawhite" target="_blank">Github</a></span>!</p>
+      </div>
+      <div class="blog-box" id="blog">
+        <h2 class="title blog-title">Blog</h2>
+        <p class="text blog-text">
+          Sometimes I like to express myself on the internet in posts not limited to a picture or 140 characters. You can find those on Medium along with some really dope articles that I've recommended.
+        </p>
+        <blockquote class="embedly-card" data-card-key="11ecd3307e964c7f95859c2430802288" data-card-controls="0" data-card-type="article"><h4><a href="https://medium.com/@jenessawhite/latest">Jenessa White - Latest</a></h4><p>Latest stories published by Jenessa White on Medium. A young woman that is embracing the slash generation. A lover of technology, sports, development, personal growth and wellness. I love a great journey.</p></blockquote>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+      </div>
+      <div class="contact-box" id="contact">
+        <h2 class="title contact-title">Contact</h2>
+        <a href="mailto:jenessaw31@gmail.com?subject=Hey I want to chat!" class="contact-email">jenessaw31@gmail.com</a>
       </div>
 
     </div>
 
-  </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-88259176-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-</body>
-
+      ga('create', 'UA-88259176-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
