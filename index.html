@@ -19,7 +19,7 @@
 
   <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-light navbar-fixed-top">
+    <nav class="navbar navbar-light navbar-fixed-top" role="navigation">
       <button class="navbar-toggler hidden-md-up navbar-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
       <div class="collapse navbar-toggleable-sm" id="navbarResponsive">
         <a class="navbar-brand" href="#">Jenessa White</a>
@@ -41,9 +41,9 @@
     </nav>
     <!-- CONTENT -->
     <div class="container-fluid main">
-      <div class="heading" id="">
+      <div class="heading">
         <img src="assets/JenessaWhiteCopy.jpg" alt="Jenessa White headshot" class="img-fluid rounded-circle headshot">
-        <div class="social-group" role="group" aria-label="Basic example">
+        <div class="social-group">
           <a href="https://github.com/jenessawhite" class="heading-social-links" target="_blank">
             <i class="icon ion-social-github-outline heading-social-button"></i>
           </a>
@@ -142,13 +142,15 @@
             </div>
           </div>
         </div>
-        <p class="mywork-text">
+        <p>
           Check out more of my work on <span><a href="https://github.com/jenessawhite" target="_blank">Github</a></span>!
         </p>
-          <br>
+        <br>
         <p>
           If you want a more in-depth or old school way of looking at my experience check out my <span><a href="assets/JW_Resume.pdf" target="_blank">resume</a></span>.
         </p>
+        <!-- <div id="container">
+        </div> -->
       </div>
       <div class="blog-box" id="blog">
         <h2 class="title blog-title">Blog</h2>
@@ -174,6 +176,29 @@
         	</div>
         </div>
       </div>
+      <!-- FOOTER -->
+      <footer class="footer" role="contentinfo" >
+        <div class="footer-social-group">
+          <a href="https://github.com/jenessawhite" class="footer-social-links" target="_blank">
+            <i class="icon ion-social-github-outline footer-social-button"></i>
+          </a>
+          <a href="https://linkedin.com/in/jenessawhite" class="footer-social-links" target="_blank">
+            <i class="icon ion-social-linkedin-outline  footer-social-button"></i>
+          </a>
+          <a href="https://twitter.com/jnessview" class="footer-social-links" target="_blank">
+            <i class="icon ion-social-twitter-outline  footer-social-button"></i>
+          </a>
+          <a href="https://instagram.com/thenessview" class="footer-social-links" target="_blank">
+            <i class="icon ion-social-instagram-outline  footer-social-button"></i>
+          </a>
+        </div>
+        <div>
+          &copy; 2016 -
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script> Jenessa White.
+        </div>
+      </footer>
 
     </div>
 
@@ -181,6 +206,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="dist/progressbar.js" charset="utf-8"></script>
+    <script src="src/index.js" charset="utf-8"></script>
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

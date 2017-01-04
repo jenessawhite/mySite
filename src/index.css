@@ -42,6 +42,13 @@ body {
 	background-repeat: repeat;
 }
 
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
 .navbar {
 	background-color: #D9EAEF;
 }
@@ -219,6 +226,13 @@ body {
 	color: #D9EAEF;
 }
 
+/*SKILLS CONTAINER*/
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+}
+
 /*CONTACT CARD FLIP*/
 /* entire container, keeps perspective */
 .flip-container {
@@ -263,6 +277,39 @@ body {
 	transform: rotateY(180deg);
 	background-color: #FF3D2E;
 }
+
+/*FOOTER*/
+.footer {
+	margin: 1rem auto;
+	padding: 1rem;
+	background-color: #fafafa;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.footer-social-group {
+	margin: 0 auto;
+	max-width: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-social-links {
+	font-size: 2.5rem;
+	width: 50px;
+}
+
+.footer-social-button {
+	font-size: 2rem;
+	color: #FF3D2E;
+}
+
+.footer-social-button:hover {
+	color: #353535;
+	transition: ease 0.3s;
+}
+
+
 
 /*HOVEREFFECT*/
 .hovereffect {
