@@ -40,8 +40,30 @@ html, body {
 body {
   background-image: url('../assets/dark_fish_skin_@2X.png');
 	background-repeat: repeat;
+	padding-top: 78px;
 }
 
+#about:before{
+	display: block;
+	content: '';
+	margin-top: -75px;
+	height: 75px;
+	visibility: hidden;
+}
+#mywork:before{
+	display: block;
+	content: '';
+	margin-top: -75px;
+	height: 75px;
+	visibility: hidden;
+}
+#blog:before{
+	display: block;
+	content: '';
+	margin-top: -75px;
+	height: 75px;
+	visibility: hidden;
+}
 a {
 	text-decoration: none;
 }
@@ -72,8 +94,8 @@ a:hover {
 	border-bottom: 2px solid #ff3d2e;
 }
 
-.main {
-	margin-top: 5rem;
+.nav-link {
+	font-size: 1.4rem;
 }
 
 .title {
@@ -150,7 +172,6 @@ a:hover {
 }
 
 .about-facts-box {
-	border: 1px solid #FF3D2E;
 	margin: 0 0.5rem 1rem auto;
 	width: 350px;
 	max-width: 100%;
@@ -411,7 +432,7 @@ a:hover {
 
 @media (min-width: 768px) {
 	html, body {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.hover-row{
