@@ -1,21 +1,20 @@
 @font-face {
-	font-family: 'Coves';
-	src: url('../fonts/Coves/Coves-Light.eot');
-	src: url('../fonts/Coves/Coves-Light.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Coves/Coves-Light.woff2') format('woff2'),
-		url('../fonts/Coves/Coves-Light.woff') format('woff'),
-		url('../fonts/Coves/Coves-Light.ttf') format('truetype');
-	font-weight: 300;
+	font-family: 'Oxygen';
+	src: url('../fonts/Oxygen/Oxygen.eot');
+	src: url('../fonts/Oxygen/Oxygen.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Oxygen/Oxygen.woff2') format('woff2'),
+		url('../fonts/Oxygen/Oxygen.woff') format('woff'),
+		url('../fonts/Oxygen/Oxygen.ttf') format('truetype');
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Coves';
-	src: url('../fonts/Coves/Coves-Bold.eot');
-	src: url('../fonts/Coves/Coves-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Coves/Coves-Bold.woff2') format('woff2'),
-		url('../fonts/Coves/Coves-Bold.woff') format('woff'),
-		url('../fonts/Coves/Coves-Bold.ttf') format('truetype');
+	font-family: 'Oxygen';
+	src: url('../fonts/Oxygen/Oxygen-Bold.eot');
+	src: url('../fonts/Oxygen/Oxygen-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Oxygen/Oxygen-Bold.woff2') format('woff2'),
+		url('../fonts/Oxygen/Oxygen-Bold.woff') format('woff'),
+		url('../fonts/Oxygen/Oxygen-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -34,7 +33,7 @@
 
 html, body {
   font-size: 16px;
-  font-family: 'Coves';
+  font-family: 'Oxygen';
 }
 
 body {
@@ -89,7 +88,7 @@ a:hover {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 	transition: 0.35s;
-	font-family: 'Coves';
+	font-family: 'Oxygen';
 	font-weight: bold;
 	border-bottom: 2px solid #ff3d2e;
 }
@@ -108,7 +107,7 @@ a:hover {
 }
 
 .navbar-toggler {
-	color: #353535;
+	color: #393939;
 }
 
 .heading {
@@ -166,8 +165,12 @@ a:hover {
 	padding-bottom: 1rem;
 }
 
+/*.side-image {
+	max-width: 400px;
+}*/
+
 .about-title, .mywork-title, .blog-title, .contact-title {
-	font-family: 'Coves';
+	font-family: 'Oxygen';
 	font-weight: bold;
 }
 
