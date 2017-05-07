@@ -1,30 +1,10 @@
 @font-face {
-	font-family: 'Devicons';
-	src: url('../fonts/devicons/devicons.eot');
-	src: url('../fonts/devicons/devicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/devicons/devicons.woff') format('woff'),
-		url('../fonts/devicons/devicons.ttf') format('truetype');
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'Oxygen';
 	src: url('../fonts/Oxygen/Oxygen-Light.eot');
 	src: url('../fonts/Oxygen/Oxygen-Light.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/Oxygen/Oxygen-Light.woff2') format('woff2'),
 		url('../fonts/Oxygen/Oxygen-Light.woff') format('woff'),
 		url('../fonts/Oxygen/Oxygen-Light.ttf') format('truetype');
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Oxygen';
-	src: url('../fonts/Oxygen/Oxygen-Bold.eot');
-	src: url('../fonts/Oxygen/Oxygen-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Oxygen/Oxygen-Bold.woff2') format('woff2'),
-		url('../fonts/Oxygen/Oxygen-Bold.woff') format('woff'),
-		url('../fonts/Oxygen/Oxygen-Bold.ttf') format('truetype');
-	font-weight: bold;
 	font-style: normal;
 }
 
@@ -47,6 +27,14 @@ html, body {
 
 body {
 	background-color:  #B3E4DB;
+}
+
+h1 {
+	font-family: 'Bilius';
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
 }
 
 nav {
@@ -100,6 +88,7 @@ nav {
 	padding-top: 80px;
 	margin-top: -80px;
 }
+
 .name {
 	font-family: 'Bilius';
 	text-align: right;
@@ -120,6 +109,7 @@ nav {
   margin-bottom: 20px;
 	width: 100px;
 }
+
 .devicons {
   font-family: 'devicons';
   speak: none;
@@ -133,12 +123,9 @@ nav {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .fa-4x {
   font-size: 4em;
-}
-.bounceIn {
-  -webkit-animation-name: bounceIn;
-  animation-name: bounceIn;
 }
 
 .portfolio-items-wrapper {
@@ -154,13 +141,27 @@ nav {
 	border-radius: 3px;
 	padding: 1rem;
 	display: flex;
-flex-direction: column;
-justify-content: space-around;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .portfolio-links {
 	color: black;
 	font-size: 2em;
+}
+
+.contact-box-links {
+	margin: 1rem;
+}
+
+.contact-box-icon {
+	font-size: 3em;
+	color: #343844;
+}
+
+.contact-box-icon:hover {
+	color: #EFFF3B;
+	transition: ease 0.3s;
 }
 
 .footer {
@@ -226,8 +227,8 @@ No media query since this is the default in Bootstrap*/
 		display: none;
 	}
 
-	#about, #skills {
-		height: 90vh;
+	#about, #skills, #contact {
+		height: 85vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
