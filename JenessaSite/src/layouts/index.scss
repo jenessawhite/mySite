@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,400|Source+Sans+Pro|Material+Icons');
+@import '~react-md/src/scss/react-md';
+@import 'theme.scss';
+
+@include react-md-everything;
