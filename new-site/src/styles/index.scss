@@ -1,0 +1,21 @@
+@import 'node_modules/bulma/bulma';
+
+// Colors
+$blue: #090446;
+$blue-invert: findColorInvert($blue);
+$red: #E5323B;
+$red-invert: findColorInvert($red);
+$grey: #383B53;
+$primary: $blue;
+$white: #F9F9F9;
+$black: #070102;
+
+// Add a serif family
+$oswald: 'Oswald', sans-serif;
+$muli: 'Muli', sans-serif;
+
+// Use the new serif family
+$family-primary: $muli;
+
+@import "common";
+@import "pages";

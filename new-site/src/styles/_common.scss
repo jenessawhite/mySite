@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $family-primary;
+  background: $white;
+}
+
+
+nav {
+  position: fixed;
+}
+
+content {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: $oswald;
+}
