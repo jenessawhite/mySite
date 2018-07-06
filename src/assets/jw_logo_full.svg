@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="322" height="116" viewBox="0 0 322 116">
+  <g fill="none" fill-rule="evenodd" transform="translate(1 -26)">
+    <text fill="#000" font-family="Zeyada" font-size="64">
+      <tspan x="0" y="74">Jenessa</tspan>
+    </text>
+    <text fill="#000" font-family="Athelas-Regular, Athelas" font-size="64">
+      <tspan x="138.524" y="141">White</tspan>
+    </text>
+    <path stroke="#2D2D2D" stroke-linecap="square" d="M0,82 L320,82"/>
+  </g>
+</svg>

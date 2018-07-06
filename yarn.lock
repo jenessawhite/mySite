@@ -1461,6 +1461,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.1.2:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+
 clean-css@4.1.x:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.11.tgz#2ecdf145aba38f54740f26cefd0ff3e03e125d6a"
@@ -5841,6 +5845,10 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-anchor-link-smooth-scroll@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/react-anchor-link-smooth-scroll/-/react-anchor-link-smooth-scroll-1.0.10.tgz#2c94048592bed855f3bf5d0bd6ec2796279e0c7e"
+
 react-dev-utils@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-5.0.1.tgz#1f396e161fe44b595db1b186a40067289bf06613"
@@ -5876,6 +5884,13 @@ react-dom@^16.3.2:
 react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
+
+react-rotating-text@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-rotating-text/-/react-rotating-text-1.2.1.tgz#0a0ec5c3dbb8e5db0146056d2f18dbb2bd3602f9"
+  dependencies:
+    classnames "^2.1.2"
+    prop-types "^15.5.10"
 
 react-router-dom@4.2.2:
   version "4.2.2"

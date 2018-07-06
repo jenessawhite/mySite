@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="71" viewBox="0 0 63 71">
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -2)">
+    <path stroke="#2D2D2D" stroke-linecap="square" d="M24,3 L24,72" transform="matrix(-1 0 0 1 48 0)"/>
+    <text fill="#000" font-family="Zeyada" font-size="29">
+      <tspan x="0" y="34">J</tspan>
+    </text>
+    <text fill="#000" font-family="Athelas-Regular, Athelas" font-size="33">
+      <tspan x="30" y="48">W</tspan>
+    </text>
+  </g>
+</svg>
