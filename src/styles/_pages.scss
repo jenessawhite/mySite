@@ -1,3 +1,9 @@
+#home {
+  h1 {
+    margin-bottom: 3rem;
+  }
+}
+
 #about {
   background: linear-gradient(rgba($blue, 0.9), rgba($blue, 0.7)), url("../assets/jw_back.jpg") no-repeat center;
   background-size: cover;
@@ -23,6 +29,17 @@
 #portfolio {
   .tile.is-child {
     box-shadow: 1px 2px 10px rgba($black, 0.1), 2px 1px 5px 0px rgba($blue, 0.1);
+  }
+
+  a {
+    font-weight: bold;
+    padding: rem(5px 8px);
+    text-decoration: none;
+    &:hover {
+      color: rgba($white, 0.8);
+      font-style: italic;
+      transition: 700ms ease all;
+    }
   }
 }
 

@@ -63,7 +63,8 @@ nav.navbar {
       background-color: transparent;
     }
     img.logo {
-      max-height: 3rem;
+      max-height: rem(70px);
+      width: 100%;
     }
 
     .navbar-burger {
@@ -217,6 +218,7 @@ footer.footer {
     justify-content: center;
     @media screen and (max-width: 1088px) {
       background-color: inherit;
+      box-shadow: none;
       display: flex;
       flex-direction: column;
 

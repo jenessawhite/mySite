@@ -6474,7 +6474,8 @@ nav.navbar {
     nav.navbar .navbar-brand .navbar-item:hover {
       background-color: transparent; }
     nav.navbar .navbar-brand img.logo {
-      max-height: 3rem; }
+      max-height: 4.375rem;
+      width: 100%; }
     nav.navbar .navbar-brand .navbar-burger:hover {
       background-color: rgba(255, 159, 28, 0.5); }
     nav.navbar .navbar-brand .navbar-burger span {
@@ -6596,6 +6597,7 @@ footer.footer {
     @media screen and (max-width: 1088px) {
       footer.footer .navbar-menu {
         background-color: inherit;
+        box-shadow: none;
         display: flex;
         flex-direction: column; }
         footer.footer .navbar-menu .navbar-item:hover {
@@ -6636,6 +6638,9 @@ footer.footer {
       footer.footer .navbar-menu .navbar-item .icon {
         margin-left: 0.3125rem; }
 
+#home h1 {
+  margin-bottom: 3rem; }
+
 #about {
   background: linear-gradient(rgba(9, 4, 70, 0.9), rgba(9, 4, 70, 0.7)), url("../assets/jw_back.jpg") no-repeat center;
   background-size: cover;
@@ -6654,6 +6659,15 @@ footer.footer {
 
 #portfolio .tile.is-child {
   box-shadow: 1px 2px 10px rgba(7, 1, 2, 0.1), 2px 1px 5px 0px rgba(9, 4, 70, 0.1); }
+
+#portfolio a {
+  font-weight: bold;
+  padding: 0.3125rem 0.5rem;
+  text-decoration: none; }
+  #portfolio a:hover {
+    color: rgba(253, 255, 252, 0.8);
+    font-style: italic;
+    transition: 700ms ease all; }
 
 #contact {
   background: linear-gradient(rgba(9, 4, 70, 0.9), rgba(9, 4, 70, 0.7));

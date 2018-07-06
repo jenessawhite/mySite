@@ -7,18 +7,13 @@ class About extends Component {
         <div className="hero-body">
           <div className="container">
             <h1>About</h1>
-            <h3>
-              So, I'm Jenessa (my teammates call me Extra) and I am a Front End
-              Developer.
-            </h3>
+            <h3>So, I'm Jenessa (my teammates call me Extra)</h3>
             <p>
-              I have working with tech since I graduated from the UMN in 2014.
-              So what does all that mean? I know just what people want and I
-              know what they actually need (because we know they aren't always
-              the same thing). I just want to make sure that they can get
-              everything in the cleanest, most beautiful way possible!
+              I am a Front End Developer based in the Twin Cities, Minnesota. I
+              enjoy creating simple, beautiful and intuitive websites that solve
+              problems. Currently I work at an amazing company called Software
+              for Good in Minneapolis, Minnesota.
             </p>
-
             <br />
             <h4>
               I like to live a pretty fulfilling life out side of work to
