@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $family-primary;
+  background: rgba($blue, 0.1);
+  color: $black;
+}
+
+.site-wrap {
+  background: $white;
+  section {
+    background: $white;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $oswald;
+  color: $black;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.75rem;
+}
+
+.icon-link {
+  color: $orange;
+  font-size: rem(28px);
+  margin: 0 rem(5px);
+  padding: rem(5px);
+
+  &:hover {
+    color: $grey;
+    transition: 300ms ease-in;
+  }
+}
+
+nav.navbar {
+  box-shadow: 0px 0px 1px 0px rgba($grey, 0.2);
+  padding: rem(3px) 1.5rem;
+
+  .navbar-brand {
+    align-items: center;
+    .navbar-item:hover{
+      background-color: transparent;
+    }
+    img.logo {
+      max-height: 3rem;
+    }
+
+    .navbar-burger {
+      &:hover {
+        background-color: rgba($orange, 0.5);
+      }
+      span {
+        height: 2px;
+        background-color: rgba($black, 0.7)
+      }
+    }
+
+  }
+  #navMenu.navbar-menu {
+    @media screen and (max-width: 1087px) {
+      background: none;
+      box-shadow: none;
+    }
+    .navbar-item {
+      color: $blue;
+      font-weight: bold;
+      margin: 5px auto;
+      padding: 10px 0;
+      text-align: center;
+      text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+      text-transform: uppercase;
+
+      &::before {
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        padding: 10px 0;
+        max-width: 0;
+        border-bottom: 2px solid $orange;
+        color: $orange;
+        content: attr(data-hover);
+        transition: max-width 0.5s;
+      }
+
+      &:hover,
+      :active {
+        outline: none;
+        background-color: transparent;
+      }
+
+      &:hover::before,
+      :focus::before {
+        max-width: 100%;
+      }
+
+      @media screen and (min-width: 1087px) {
+        border-top: 2px solid $blue;
+        margin: 15px 25px;
+        &::before {
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+.pulse {
+  animation-name: pulse;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.is-blue {
+  background: $blue;
+  color: $white;
+}
+.is-seafoam {
+  background: $seafoam;
+  color: $white;
+}
+.is-orange {
+  background: $orange;
+  color: $black;
+}
+.is-red {
+  background: $red;
+  color: $white;
+}
+.is-grey {
+  background: $grey;
+  color: $white;
+}
+.is-white {
+  background: $white;
+  color: $black;
+}
+
+.is-sticky-top {
+  left: 0;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 30;
+}
+
+.hero {
+  margin-top: -35px;
+  .hero-body {
+    @media screen and (max-width: 600px) {
+      padding: 6rem 1.5rem;
+    }
+    .container {
+      max-width: 900px;
+    }
+  }
+}
+
+footer.footer {
+  padding: 3rem 1.5rem;
+  h5 {
+    color: inherit;
+    letter-spacing: 1px;
+    margin-bottom: rem(8px);
+    text-transform: uppercase;
+  }
+  .navbar-menu {
+    justify-content: center;
+    @media screen and (max-width: 1088px) {
+      background-color: inherit;
+      display: flex;
+      flex-direction: column;
+
+      .navbar-item:hover {
+        background-color: $seafoam;
+        color: $black;
+      }
+    }
+    .navbar-item {
+      background: none;
+      border: none;
+      color: inherit;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin: rem(5px 10px);
+      outline: none;
+      padding: rem(10px 20px);
+      text-transform: uppercase;
+      transition: all 0.3s;
+
+      &.btn-1 {
+        border: 3px solid $seafoam;
+        color: $seafoam;
+        overflow: hidden;
+
+        &:hover {
+          color: $black;
+          &::after {
+            width: 85%;
+            opacity: 1;
+          }
+        }
+
+        &::after {
+          width: 0;
+          height: 103%;
+          top: 50%;
+          left: 50%;
+          background: $seafoam;
+          opacity: 0;
+          transform: translateX(-50%) translateY(-50%);
+
+          content: '';
+          position: absolute;
+          z-index: -1;
+          transition: all 0.3s;
+        }
+      }
+
+      .icon {
+        margin-left: rem(5px);
+      }
+    }
+  }
+}
