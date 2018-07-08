@@ -14,11 +14,11 @@ class Contact extends Component {
             <p>
               Well here's your chance!
               <br />
-              But don't be a douche. I'll just report you as spam and keep it
-              pushing..
+              Don't be a douche.​..​I'll just report you as spam and keep it
+              pushing.
             </p>
 
-            <br/>
+            <br />
             <div className="container">
               <form
                 action="https://formspree.io/jenessaw31@gmail.com"

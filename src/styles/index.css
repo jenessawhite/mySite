@@ -6642,7 +6642,7 @@ footer.footer {
   margin-bottom: 3rem; }
 
 #about {
-  background: linear-gradient(rgba(9, 4, 70, 0.9), rgba(9, 4, 70, 0.7)), url("../assets/jw_back.jpg") no-repeat center;
+  background: linear-gradient(rgba(9, 4, 70, 0.9), rgba(9, 4, 70, 0.7)), url("../assets/vixen_jw_stiffarm.jpg") no-repeat center;
   background-size: cover;
   color: #FDFFFC; }
   #about h1, #about h3, #about h4 {
@@ -6657,20 +6657,23 @@ footer.footer {
       text-decoration: underline #F71735;
       transition: 300ms ease all; }
 
-#portfolio .tile.is-child {
-  box-shadow: 1px 2px 10px rgba(7, 1, 2, 0.1), 2px 1px 5px 0px rgba(9, 4, 70, 0.1); }
-
-#portfolio a {
-  font-weight: bold;
-  padding: 0.3125rem 0.5rem;
-  text-decoration: none; }
-  #portfolio a:hover {
-    color: rgba(253, 255, 252, 0.8);
-    font-style: italic;
-    transition: 700ms ease all; }
+#portfolio {
+  background: linear-gradient(rgba(253, 255, 252, 0.9), rgba(253, 255, 252, 0.7)), url("../assets/jw_back.jpg") no-repeat center;
+  background-size: cover; }
+  #portfolio a {
+    font-weight: bold;
+    text-decoration: none; }
+  #portfolio .tile.is-child {
+    box-shadow: 1px 2px 10px rgba(7, 1, 2, 0.1), 2px 1px 5px 0px rgba(9, 4, 70, 0.1); }
+  #portfolio .tile a {
+    padding: 0.3125rem 0.5rem; }
+    #portfolio .tile a:hover {
+      color: rgba(253, 255, 252, 0.8);
+      font-style: italic;
+      transition: 700ms ease all; }
 
 #contact {
-  background: linear-gradient(rgba(9, 4, 70, 0.9), rgba(9, 4, 70, 0.7));
+  background-image: linear-gradient(to bottom, #090446, #14154b, #20224e, #2c2e51, #383b53);
   color: #FDFFFC; }
   #contact h1, #contact strong, #contact label {
     color: #FDFFFC; }
