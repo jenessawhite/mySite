@@ -8,7 +8,7 @@ class Home extends Component {
       <section className="hero is-fullheight" id="home">
         <div className="hero-body animated fadeInDown">
           <div className="container has-text-centered">
-            <h1>Hey there. I'm Jenessa White</h1>
+            <h1>Hey there! I'm Jenessa White.</h1>
 
             <img src={photo} alt="Jenessa White Headshot"/>
             <div className="columns">

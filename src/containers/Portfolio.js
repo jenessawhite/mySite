@@ -11,7 +11,7 @@ class Portfolio extends Component {
               Want to know what else I've built? Check out some of the projects
               I've built or worked on below.
               <br />
-              Currently most of what I build is at{' '}
+              Most of what I build right now is at{' '}
               <span>
                 <a href="http://softwareforgood.com">Software For Good</a>
               </span>{' '}
