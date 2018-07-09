@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+// import AnchorLink from 'react-anchor-link-smooth-scroll';
 import photo from '../assets/watercolor_headshot.png';
 
 class Home extends Component {
@@ -11,8 +11,8 @@ class Home extends Component {
             <h1>Hey there! I'm Jenessa White.</h1>
 
             <img src={photo} alt="Jenessa White Headshot"/>
-            <div className="columns">
-              {/* <AnchorLink href="#about" className="column">
+            {/* <div className="columns">
+              <AnchorLink href="#about" className="column">
                 <div className="card">
                   <div className="card-content">
                     <p className="title">Who Are You?</p>
@@ -28,8 +28,8 @@ class Home extends Component {
                     <p className="subtitle">Jeff Atwood</p>
                   </div>
                 </div>
-              </AnchorLink> */}
-            </div>
+              </AnchorLink>
+            </div> */}
           </div>
         </div>
       </section>

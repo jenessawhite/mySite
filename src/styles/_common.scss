@@ -250,6 +250,10 @@ footer.footer {
             width: 85%;
             opacity: 1;
           }
+
+          .devto {
+            fill: $black;
+          }
         }
 
         &::after {
@@ -270,6 +274,10 @@ footer.footer {
 
       .icon {
         margin-left: rem(5px);
+
+        .devto {
+          fill: $seafoam;
+        }
       }
     }
   }

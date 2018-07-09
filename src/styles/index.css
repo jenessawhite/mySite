@@ -6623,6 +6623,8 @@ footer.footer {
           footer.footer .navbar-menu .navbar-item.btn-1:hover::after {
             width: 85%;
             opacity: 1; }
+          footer.footer .navbar-menu .navbar-item.btn-1:hover .devto {
+            fill: #070102; }
         footer.footer .navbar-menu .navbar-item.btn-1::after {
           width: 0;
           height: 103%;
@@ -6637,6 +6639,8 @@ footer.footer {
           transition: all 0.3s; }
       footer.footer .navbar-menu .navbar-item .icon {
         margin-left: 0.3125rem; }
+        footer.footer .navbar-menu .navbar-item .icon .devto {
+          fill: #41EAD4; }
 
 #home h1 {
   margin-bottom: 3rem; }

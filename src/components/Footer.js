@@ -1,5 +1,5 @@
 import React from 'react';
-
+import DevToBadge from '../assets/DevToBadge';
 const Footer = () => {
   return (
     <footer className="footer is-grey has-text-centered">
@@ -46,16 +46,16 @@ const Footer = () => {
               <i className="fab fa-instagram" />
             </span>
           </a>
-          {/* <a
+          <a
             className="navbar-item btn-1"
-            href="http://medium.com/@jenessawhite"
+            href="https://dev.to/jenessawhite"
             target="_blank"
             rel="noopener noreferrer">
-            Thoughts
+            Blog
             <span className="icon">
-              <i className="fab fa-medium-m" />
+              <DevToBadge className="devto svg-inline--fa fa-w-20" />
             </span>
-          </a> */}
+          </a>
         </div>
       </div>
     </footer>
